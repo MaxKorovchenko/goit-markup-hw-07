@@ -39,7 +39,7 @@
 }
 
 /* reset */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -78,11 +78,11 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* Base styles */
 
-body {
+/* body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
   background-color: var(--main-bg-cl);
@@ -94,9 +94,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  /* outline: 2px solid red;
-  outline-offset: -2px;  */
 }
 
 .section {
@@ -111,44 +108,6 @@ body {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-
-  color: var(--accent-txt-cl);
-}
-
-.logo__dark {
-  color: var(--logo-txt-cl);
-}
-
-.logo__light {
-  color: var(--light-txt-cl);
-}
-
-.nav__link--current {
-  color: var(--accent-txt-cl);
-}
-
-.nav__link--current::after {
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  bottom: -1.5%;
-
-  content: '';
-  height: 4px;
-  width: 100%;
-  border-radius: 2px;
-  background-color: var(--accent-bg-cl);
 }
 
 .btn {
@@ -175,9 +134,30 @@ body {
   background-color: var(--btn-accent-bg-cl);
 }
 
+.logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  color: var(--accent-txt-cl);
+}
+
+.logo__dark {
+  color: var(--logo-txt-cl);
+}
+
+.logo__light {
+  color: var(--light-txt-cl);
+} */
+
 /* Header */
 
-.header {
+/* .header {
   border-bottom: 1px solid var(--header-border-cl);
 }
 
@@ -216,6 +196,23 @@ body {
   transition: color var(--animation-time) var(--animation-function);
 }
 
+.nav__link--current {
+  color: var(--accent-txt-cl);
+}
+
+.nav__link--current::after {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  bottom: -1.5%;
+
+  content: '';
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--accent-bg-cl);
+}
+
 .nav__link:hover,
 .nav__link:focus {
   color: var(--accent-txt-cl);
@@ -252,11 +249,11 @@ body {
 .header-contacts__link:hover,
 .header-contacts__link:focus {
   color: var(--accent-txt-cl);
-}
+} */
 
 /* Hero */
 
-.hero {
+/* .hero {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -285,11 +282,11 @@ body {
   text-transform: uppercase;
 
   color: var(--light-txt-cl);
-}
+} */
 
 /* Features */
 
-.features__list {
+/* .features__list {
   display: flex;
   gap: 30px;
 }
@@ -323,11 +320,11 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--secondary-txt-cl);
-}
+} */
 
 /* Work */
 
-.work {
+/* .work {
   padding-top: 0;
 }
 
@@ -360,11 +357,11 @@ body {
   text-transform: uppercase;
 
   color: var(--light-txt-cl);
-}
+} */
 
 /* Team */
 
-.team {
+/* .team {
   background-color: var(--light-bg-cl);
 }
 
@@ -404,11 +401,11 @@ body {
   padding: 30px;
 
   text-align: center;
-}
+} */
 
 /* Socials */
 
-.socials {
+/* .socials {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -436,11 +433,11 @@ body {
 .socials__link:focus {
   background-color: var(--accent-bg-cl);
   color: var(--light-txt-cl);
-}
+} */
 
 /* Clients */
 
-.clients__list {
+/* .clients__list {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -474,11 +471,11 @@ body {
 .clients__link:focus {
   color: var(--accent-txt-cl);
   border-color: var(--accent-txt-cl);
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -592,11 +589,11 @@ body {
   height: 50px;
   gap: 10px;
   align-items: center;
-}
+} */
 
 /* Portfolio */
 
-.filter {
+/* .filter {
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -672,7 +669,7 @@ body {
   border-left: 1px solid var(--cards-border-cl);
   border-right: 1px solid var(--cards-border-cl);
   border-bottom: 1px solid var(--cards-border-cl);
-}
+} */
 
 /* Overlay */
 
@@ -713,7 +710,7 @@ body {
 
 /* Modal window */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -782,7 +779,7 @@ body {
 .modal__btn:focus {
   fill: var(--accent-txt-cl);
   border-color: var(--accent-bg-cl);
-}
+} */
 
 /* Register form */
 
