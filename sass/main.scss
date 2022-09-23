@@ -1,7 +1,9 @@
 // utils styles
+@import './utils/normalize';
 @import './utils/vars';
 @import './utils/reset';
 @import './utils/base-styles';
+@import './utils/visually-hidden';
 
 // components styles
 @import './components/header';

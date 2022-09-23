@@ -5,37 +5,24 @@ h3,
 h4,
 h6,
 h6,
-p,
-ul {
+p {
   margin: 0;
   padding: 0;
 }
 
-.link {
-  text-decoration: none;
-  color: currentColor;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.list {
-  list-style: none;
+a {
+  text-decoration: none;
+  color: currentColor;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }

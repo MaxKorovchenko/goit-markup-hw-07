@@ -145,17 +145,10 @@
 }
 
 .icon {
-  outline: 2px solid transparent;
-  transition: outline var(--animation-time) var(--animation-function), fill var(--animation-time) var(--animation-function);
+  transition: fill var(--animation-time) var(--animation-function), fill var(--animation-time) var(--animation-function);
 }
 
-.register__checkbox:focus + .icon {
-  outline: 2px solid var(--accent-txt-cl);
-  outline-offset: 1px;
-  border-radius: 2px;
-  /* fill: var(--accent-txt-cl); */
-}
-
+.register__checkbox:focus + .icon,
 .register__checkbox:hover + .icon {
   fill: var(--accent-txt-cl);
 }
@@ -176,5 +169,6 @@
 }
 
 .register__link {
+  text-decoration: underline;
   color: var(--accent-txt-cl);
 }
